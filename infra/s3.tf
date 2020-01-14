@@ -1,6 +1,6 @@
 resource "aws_s3_bucket" "my_s3_bucket" {
   bucket = "my-s3-bucket"
-  acl    = "public-read-write"
+  acl    = "private"
 
   server_side_encryption_configuration {
     rule {
